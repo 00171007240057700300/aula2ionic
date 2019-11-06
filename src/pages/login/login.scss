@@ -1,0 +1,33 @@
+$bgAzul:  linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+$bgRosa:  linear-gradient(45deg, red, blue);
+page-login {
+ion-content{
+    background: $bgAzul;
+}
+
+.boxlogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+
+    flex-direction: column;
+    p{
+        color: #fff;
+        font-size: 2rem;
+    }
+}
+
+ ion-list{
+     background: #fff;
+     border-radius: 1rem;
+     padding: 4rem 2rem;
+     box-sizing: border-box;
+     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+ }
+ button{
+     background: $bgRosa;
+ }
+}
+
+
